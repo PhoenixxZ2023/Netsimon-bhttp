@@ -5,7 +5,7 @@ Servidor de túnel/proxy (BHTTP sobre SSH) usado pelo app **NETSIMON** para esta
 ## 🚀 Instalação rápida
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/miau4/Netsimon-bhttp/main/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/PhoenixxZ2023/Netsimon-bhttp/main/install.sh | sudo bash
 ```
 
 O script baixa o binário, verifica o checksum, cria a configuração padrão em `/etc/netsimon-bhttp/config.json` e sobe o serviço via `systemd` (`netsimon-bhttp.service`), já habilitado para iniciar com o servidor.
