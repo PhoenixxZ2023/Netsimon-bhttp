@@ -6,7 +6,7 @@ echo "=== Instalador Netsimon-BHTTP ==="
 INSTALL_DIR="/usr/local/bin"
 CONFIG_DIR="/etc/netsimon-bhttp"
 BIN_NAME="netsimon-bhttp"
-RELEASE_URL="https://github.com/miau4/Netsimon-bhttp/releases/download/v1.0/netsimon-bhttp-linux-amd64.tar.gz"
+RELEASE_URL="https://github.com/PhoenixxZ2023/Netsimon-bhttp/releases/download/v1.0/netsimon-bhttp-linux-amd64.tar.gz"
 EXPECTED_SHA256="53909243141d6ad91820704ad2c3b71a332e425195311a734b2a0ef48c8d7d2a"
 
 if [ "$EUID" -ne 0 ]; then
